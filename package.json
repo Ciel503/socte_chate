@@ -1,27 +1,19 @@
 {
-  "name": "socte_io",
+  "name": "app-teste",
   "version": "1.0.0",
+  "description": "teste",
   "main": "index.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Franciel Mesquita",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "bootstrap": "^5.3.3",
-    "express": "^4.18.2",
-    "lts": "^1.2.0",
-    "path": "^0.12.7",
-    "socket.io": "^4.7.4"
-  
+  "repository": {
+    "type": "git",
+    "url": "appteste"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+  "author": "franciel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "path": "^0.12.7"
   }
 }
